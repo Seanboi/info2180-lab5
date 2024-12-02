@@ -1,4 +1,4 @@
-<<?php
+<?php
 $host = 'localhost';
 $username = 'lab5_user';
 $password = 'password123';
@@ -49,3 +49,6 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);?>
 <?php endforeach; ?>
 </table>
 <?php endif; ?>
+
+
+
